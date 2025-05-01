@@ -1,4 +1,4 @@
-REATE TABLE Contains (
+REATE TABLE CONTAINS (
     OrderID INT NOT NULL,
     BookID INT NOT NULL,
     Quantity INT NOT NULL,
