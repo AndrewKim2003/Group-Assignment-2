@@ -1,6 +1,6 @@
 1. To run our SQL code, please copy and paste the code into any SQL testing website/software available.
 
-        For this example we used, DB Fiddle to test our code
+        To test our code we used, DB Fiddle (db-fiddle.com)
    
 3. You will copy our given code into the "Schema SQL" side or the Left Side
    
