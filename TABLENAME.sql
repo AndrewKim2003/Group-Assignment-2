@@ -18,23 +18,3 @@ CREATE TABLE Author (
   Biography        TEXT
 );
 
-WRITTEN_BY
-CREATE TABLE Written_By (
-  BookID           INT,
-  AuthorID         INT,
-  PRIMARY KEY (BookID, AuthorID),
-  FOREIGN KEY (BookID) REFERENCES Book(BookID),
-  FOREIGN KEY (AuthorID) REFERENCES Author(AuthorID)
-);
-
-CONTAINS
-CREATE TABLE Contains (
-  OrderID          INT,
-  BookID           INT,
-  Quantity         INT,
-  Price            DECIMAL(10, 2),
-  PRIMARY KEY (OrderID, BookID),
-  FOREIGN KEY (OrderID) REFERENCES OrderTable(OrderID),
-  FOREIGN KEY (BookID) REFERENCES Book(BookID)
-);
-
