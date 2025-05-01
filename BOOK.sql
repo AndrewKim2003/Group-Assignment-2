@@ -9,4 +9,3 @@ CREATE TABLE BOOK (
   StockQuantity    INT,
   Price            DECIMAL(10, 2)
 );
-
