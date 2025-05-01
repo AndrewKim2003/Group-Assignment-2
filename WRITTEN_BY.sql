@@ -1,4 +1,4 @@
-CREATE TABLE WrittenBy (
+CREATE TABLE WRITTENBY (
     BookID INT,
     AuthorID INT,
     PRIMARY KEY (BookID, AuthorID),
