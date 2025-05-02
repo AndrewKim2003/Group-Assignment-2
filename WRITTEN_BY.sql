@@ -1,7 +1,7 @@
 CREATE TABLE WRITTEN_BY (
-    BookID INT,
     AuthorID INT,
-    PRIMARY KEY (BookID, AuthorID),
-    FOREIGN KEY (BookID) REFERENCES Book(BookID),
-    FOREIGN KEY (AuthorID) REFERENCES Author(AuthorID)
+    BookID INT,
+    PRIMARY KEY (AuthorID, BookID),
+    FOREIGN KEY (AuthorID) REFERENCES AUTHOR(AuthorID),
+    FOREIGN KEY (BookID) REFERENCES BOOK(BookID)
 );
